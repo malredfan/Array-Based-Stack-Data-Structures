@@ -62,11 +62,78 @@ This implementation includes both fundamental stack operations and additional fe
 ### Basic Operations
 
 - **Push:** Adds an element to the top of the stack if space is available. It checks for stack overflow and, if space permits, adds the element at `stk[top]` and increments `top`.
+
+```cpp
+// Push Function
+void push(char c) {
+    if (isFull()) {
+        cout << "Stack Overflow! Cannot push " << c << endl;
+        return;
+    }
+    stk[++top] = c;
+}
+```
+
 - **Pop:** Removes and returns the topmost element if the stack is not empty. It checks for underflow and, if the stack contains elements, retrieves the top element and decrements `top`.
+
+```cpp
+// Pop Function
+char pop() {
+    if (isEmpty()) {
+        cout << "Stack Underflow! Cannot pop from an empty stack." << endl;
+        return '\0'; // Return null character as an error indicator
+    }
+    return stk[top--];
+}
+```
+
 - **Display:** Shows all elements in the stack, starting from the top, and provides a visual of the stack's contents.
+
+```cpp
+// Display Function
+void display() {
+    if (isEmpty()) {
+        cout << "Stack is empty. Nothing to display." << endl;
+        return;
+    }
+    cout << "Stack elements (top to bottom): ";
+    for (int i = top; i >= 0; i--) {
+        cout << stk[i] << " ";
+    }
+    cout << endl;
+}
+```
+
 - **Peek:** Retrieves the top element without removing it, allowing users to inspect the most recently added item.
+
+```cpp
+// Peek Function
+void peek() {
+    if (isEmpty()) {
+        cout << "Stack is empty. Nothing to peek." << endl;
+        return;
+    }
+    cout << "Top element: " << stk[top] << endl;
+}
+```
+
 - **IsEmpty:** Checks whether the stack is empty, which is crucial for validating operations that depend on the stack's state.
+
+```cpp
+// IsEmpty Function
+bool isEmpty() {
+    return (top == -1);
+}
+```
+
 - **IsFull:** Determines if the stack has reached its maximum capacity, helping to avoid overflow errors.
+
+```cpp
+// IsFull Function
+bool isFull() {
+    return (top == MAX - 1);
+}
+```
 
 ### Additional Operations
 
