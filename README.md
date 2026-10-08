@@ -211,14 +211,28 @@ bool isBalanced(string expr) {
 ```
 # Implementation
 ### Push and Display
-Below is an example of how the program works when pushing a character onto the stack and then displaying the current stack contents.
+Below is an of how the program works when pushing a character onto the stack and then displaying the current stack contents.
 
 ![push_success](docs/ImagesProject/push_success.jpg)
 
 ### Push Operation when Stack is Full (Overflow)
-This example demonstrates what happens when the user tries to push an element onto a stack that has already reached its maximum capacity (`MAX = 100`).
+This demonstrates what happens when the user tries to push an element onto a stack that has already reached its maximum capacity (`MAX = 100`).
 
 ![push_full](docs/ImagesProject/push_full.jpg)
+
+### Push and Pop Operations (LIFO Demonstration)
+This demonstrates the Last-In-First-Out (LIFO) nature of the stack. It shows the sequence of pushing two elements onto the stack and then popping the most recently added element.
+
+![pop_success](docs/ImagesProject/pop_success.jpg)
+
+### Pop Operation when Stack is Empty (Underflow)
+This example demonstrates how the program handles an underflow condition. It shows what happens when the user tries to pop an element from a stack that has no elements.
+
+![pop_empty](docs/ImagesProject/pop_empty.jpg)
+
+
+
+
 
 
 # Conclusion
