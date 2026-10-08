@@ -270,6 +270,10 @@ This demonstrates the `IsFull` operation when the stack has reached its maximum 
 
 ![isfull_true](docs/ImagesProject/isfull_true.jpg)
 
+### Reverse Word Operation
+This demonstrates a practical application of the stack's LIFO (Last-In-First-Out) principle by using it to reverse the characters of a given word.
+
+![reverse_word](docs/ImagesProject/reverse_word.jpg)
 
 # Conclusion
 This project successfully demonstrates the design and implementation of an Array-Based Stack in C++. The stack operates on the fundamental Last-In-First-Out (LIFO) principle and includes all essential operations: push, pop, display, peek, isEmpty, and isFull. These operations provide a reliable and efficient way to manage a limited set of elements when the maximum size is known in advance. The implementation also handles critical cases such as stack overflow and underflow, ensuring robustness and correctness.
