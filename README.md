@@ -209,6 +209,17 @@ bool isBalanced(string expr) {
     return isEmpty();
 }
 ```
+# Implementation
+### Push and Display
+Below is an example of how the program works when pushing a character onto the stack and then displaying the current stack contents.
+
+![push_success](docs/ImagesProject/push_success.jpg)
+
+### Push Operation when Stack is Full (Overflow)
+This example demonstrates what happens when the user tries to push an element onto a stack that has already reached its maximum capacity (`MAX = 100`).
+
+![push_full](docs/ImagesProject/push_full.jpg)
+
 
 # Conclusion
 This project successfully demonstrates the design and implementation of an Array-Based Stack in C++. The stack operates on the fundamental Last-In-First-Out (LIFO) principle and includes all essential operations: push, pop, display, peek, isEmpty, and isFull. These operations provide a reliable and efficient way to manage a limited set of elements when the maximum size is known in advance. The implementation also handles critical cases such as stack overflow and underflow, ensuring robustness and correctness.
