@@ -260,6 +260,17 @@ This demonstrates the `IsEmpty` operation after pushing an element. It shows how
 
 ![isempty_false](docs/ImagesProject/isempty_false.jpg)
 
+### IsFull Operation on a Non-Full Stack
+This demonstrates the `IsFull` operation, which checks whether the stack has reached its maximum capacity.
+
+![isfull_false](docs/ImagesProject/isfull_false.jpg)
+
+### IsFull Operation on a Full Stack
+This demonstrates the `IsFull` operation when the stack has reached its maximum capacity. It shows how the program responds when checking the status of a completely filled stack.
+
+![isfull_true](docs/ImagesProject/isfull_true.jpg)
+
+
 # Conclusion
 This project successfully demonstrates the design and implementation of an Array-Based Stack in C++. The stack operates on the fundamental Last-In-First-Out (LIFO) principle and includes all essential operations: push, pop, display, peek, isEmpty, and isFull. These operations provide a reliable and efficient way to manage a limited set of elements when the maximum size is known in advance. The implementation also handles critical cases such as stack overflow and underflow, ensuring robustness and correctness.
 
