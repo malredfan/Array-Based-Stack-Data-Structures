@@ -226,19 +226,31 @@ This demonstrates the Last-In-First-Out (LIFO) nature of the stack. It shows the
 ![pop_success](docs/ImagesProject/pop_success.jpg)
 
 ### Pop Operation when Stack is Empty (Underflow)
-This example demonstrates how the program handles an underflow condition. It shows what happens when the user tries to pop an element from a stack that has no elements.
+This demonstrates how the program handles an underflow condition. It shows what happens when the user tries to pop an element from a stack that has no elements.
 
 ![pop_empty](docs/ImagesProject/pop_empty.jpg)
 
 ### Display Operation when Stack is Empty
-This example demonstrates the behavior of the program when the user attempts to display the contents of an empty stack.
+This demonstrates the behavior of the program when the user attempts to display the contents of an empty stack.
 
 ![display_empty](docs/ImagesProject/display_empty.jpg)
 
 ### Multiple Push Operations and Display Order
-This example demonstrates how elements are stored in the stack following the Last-In-First-Out (LIFO) principle, and how the `display()` function outputs the elements from the top-most to the bottom-most.
+This demonstrates how elements are stored in the stack following the Last-In-First-Out (LIFO) principle, and how the `display()` function outputs the elements from the top-most to the bottom-most.
 
 ![display_nonempty](docs/ImagesProject/display_nonempty.jpg)
+
+### Peek Operation on an Empty Stack
+This demonstrates the behavior of the `peek()` function when the user tries to look at the top element of an empty stack.
+
+![peek_empty](docs/ImagesProject/peek_empty.jpg)
+
+### Peek Operation with a Non-Empty Stack
+This demonstrates the `peek()` operation, which allows the user to view the top element of the stack without removing it. It also shows how to push multiple elements to build up the stack.
+
+![peek_nonempty.jpg](docs/ImagesProject/peek_nonempty.jpg)
+
+
 
 # Conclusion
 This project successfully demonstrates the design and implementation of an Array-Based Stack in C++. The stack operates on the fundamental Last-In-First-Out (LIFO) principle and includes all essential operations: push, pop, display, peek, isEmpty, and isFull. These operations provide a reliable and efficient way to manage a limited set of elements when the maximum size is known in advance. The implementation also handles critical cases such as stack overflow and underflow, ensuring robustness and correctness.
