@@ -275,6 +275,31 @@ This demonstrates a practical application of the stack's LIFO (Last-In-First-Out
 
 ![reverse_word](docs/ImagesProject/reverse_word.jpg)
 
+### Palindrome Check (Successful Case)
+This demonstrates how the stack can be used to check if a given string is a palindrome (reads the same forwards and backwards).
+
+![palindrome_true](docs/ImagesProject/palindrome_true.jpg)
+
+### Palindrome Check (Unsuccessful Case)
+This demonstrates the `isPalindrome()` function failing to validate a string. It shows how the stack-based approach detects that a word is not a palindrome by comparing characters from opposite ends of the string.
+
+![palindrome_false](docs/ImagesProject/palindrome_false.jpg)
+
+### Braces Balancer (Balanced Expression)
+This demonstrates the `isBalanced()` function, which uses the stack to verify if an expression has correctly matched and nested parentheses, brackets, and curly braces.
+
+![braces_balanced](docs/ImagesProject/braces_balanced.jpg)
+
+### Braces Balancer (Unbalanced Expression)
+This demonstrates the `isBalanced()` function detecting an error in bracket pairing. It shows how the stack-based algorithm catches mismatched braces, even if they are properly nested in terms of quantity.
+
+![braces_unbalanced](docs/ImagesProject/braces_unbalanced.jpg)
+
+### Exiting the Program
+This demonstrates how the user terminates the program gracefully using the main menu. It also shows the standard exit message provided by the console environment.
+
+![exit](docs/ImagesProject/exit.jpg)
+
 # Conclusion
 This project successfully demonstrates the design and implementation of an Array-Based Stack in C++. The stack operates on the fundamental Last-In-First-Out (LIFO) principle and includes all essential operations: push, pop, display, peek, isEmpty, and isFull. These operations provide a reliable and efficient way to manage a limited set of elements when the maximum size is known in advance. The implementation also handles critical cases such as stack overflow and underflow, ensuring robustness and correctness.
 
