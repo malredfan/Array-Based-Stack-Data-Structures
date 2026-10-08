@@ -248,9 +248,17 @@ This demonstrates the behavior of the `peek()` function when the user tries to l
 ### Peek Operation with a Non-Empty Stack
 This demonstrates the `peek()` operation, which allows the user to view the top element of the stack without removing it. It also shows how to push multiple elements to build up the stack.
 
-![peek_nonempty.jpg](docs/ImagesProject/peek_nonempty.jpg)
+![peek_nonempty](docs/ImagesProject/peek_nonempty.jpg)
 
+### IsEmpty Operation on an Empty Stack
+This demonstrates the `IsEmpty` operation, which checks whether the stack currently contains any elements.
 
+![isempty_true](docs/ImagesProject/isempty_true.jpg)
+
+### IsEmpty Operation on a Non-Empty Stack
+This demonstrates the `IsEmpty` operation after pushing an element. It shows how the stack's state changes from empty to non-empty.
+
+![isempty_false](docs/ImagesProject/isempty_false.jpg)
 
 # Conclusion
 This project successfully demonstrates the design and implementation of an Array-Based Stack in C++. The stack operates on the fundamental Last-In-First-Out (LIFO) principle and includes all essential operations: push, pop, display, peek, isEmpty, and isFull. These operations provide a reliable and efficient way to manage a limited set of elements when the maximum size is known in advance. The implementation also handles critical cases such as stack overflow and underflow, ensuring robustness and correctness.
